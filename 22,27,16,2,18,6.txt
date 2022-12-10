@@ -1,0 +1,43 @@
+22,27,16,2,18,6
+
+    1-) we are looking to "22" and "27". They are already sorted
+    2-) now we compare "27" and "16". "16" is smaller than "27" so we change their locations.
+
+    new -> 22,16,27,2,18,6 
+
+    3-) we compare "22" and "16". they change their locations
+
+    new-> 16,22,27,2,18,6
+
+    4-) we compare "27" and "2". they change their locations
+
+    new -> 16,22,2,27,18,6
+
+    5-we compare "22" and "2" they change than locations
+    
+    new -> 16,2,22,27,18,6
+    
+    6-we compare "16" and "2". they change their locations
+    
+    new -> 2,16,22,27,18,6
+
+    7- we compare "18" and "27". they change their locations
+
+    new - > 2,16,22,18,27,6
+
+    8- we compare "18" and "22". they change their locations
+
+    new -> 2,16,18,22,27,6
+
+    9- we compare 18 and 16. they stay in their locations
+    10- we compare "6" and "27".they change their locations
+    new -> 2,16,18,22,6,27
+    11-)we compare  "6" and "22". they change their locations
+    new -> 2,16,18,6,22,27
+    12-we compare "6" and "18".they change their locations
+    new -> 2,16,6,18,22,27
+    13- we compare "6" and "16".they change their locations
+    new -> 2,6,16,18,22,27
+    14- we compare "6" and "2". they stay
+
+            final 2,6,16,18,22,27
