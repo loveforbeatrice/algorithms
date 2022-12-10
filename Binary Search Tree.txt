@@ -1,0 +1,26 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+
+
+        Binary search tree
+
+
+7 root, 5 on the left hand side and 8 on the right hand side
+
+    5 root, 1 is on the left hand side and 6 is on the right hand side
+    1 root, 0 is on the left han side and 3 is on te right hand side
+    3 root,, 2 is on the left hand side and 4 is on the right hand side
+    6 root
+    8 root, 9 is on the right hand side
+
+
+
+
+
+
+                          7
+
+                    5        8
+               1       6        9
+            0     3
+               2    4
